@@ -1,0 +1,88 @@
+body { 
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+    filter: brightness 50%;
+    color: #fff;
+} 
+figcaption {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+  }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+} 
+.container {
+    width: 100%;
+} 
+.container .row {
+    width: 80%;
+    margin: auto;
+}
+.container .row .header {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.container .row .header h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    color: #50e;
+    text-align: center;
+}
+.container .row .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card {
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px #50e;
+    background-color: #50e;
+}
+.content .card img {
+    width: 100%;
+    height: auto;
+}
+.content .card h2, h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+.content .card p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+a {
+  text-decoration: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #50e;
+  color: #fff;
+  padding: 8px 15px;
+  margin: 20px 0px 20px 0px;
+}
+ a:hover {
+    color: #ddd;
+}

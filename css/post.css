@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+  }
+  .blog-section {
+    width: 85%;
+  }
+  .section-content {
+    width: 85%;
+    margin: 20px auto;
+  }
+  .title {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+  figcaption {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+    color: #50e;
+    text-transform: uppercase;
+  }
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #444;
+  }
+  h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+  }
+  h5 {
+    text-align: center;
+  }
+  .title p {
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+  }
+  .card {
+    width: 100%;
+    background-color: #ddd;
+    position: relative;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .article {
+    padding: 15px 20px;
+  }
+  .article p {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #666;
+  }
+  .bio {
+    padding: 15px 20px;
+    width: 150%;
+    text-align: justify;
+  }
+  .blog-section .section-content .cards .card a {
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    background-color: #50e;
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .posted-date p {
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #50e;
+    color: #fff;
+    padding: 6px 15px;
+  }
+  .blog-footer {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    background-color: #ddd;
+  }
+  .blog-author {
+    display: flex;
+    align-items: center;
+  }
+  .blog-author img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 6px;
+  } 
+  .blog-author-details {
+    margin-left: 10px;
+  }
+  .blog-author-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .blog-author-details p {
+    font-size: 17px;
+    color: #000;
+    margin: 0;
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 50%;
+  }
+  .socialIcons a i {
+    font-size: 3em;
+    color: #000;
+    opacity: 0.9;
+  }
+  .socialIcons a:hover {
+    background-color: #50f;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i {
+    color: #fff;
+    transition: 0.5s;
+  }
+  .designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    }
